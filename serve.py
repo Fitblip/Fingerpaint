@@ -48,4 +48,4 @@ def jsonRespond(domain):
     return render_template("l33thax0r.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
