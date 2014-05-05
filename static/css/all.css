@@ -1,0 +1,21 @@
+body > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    padding-top: 25px;
+}
+
+body {
+    background-image: url(/static/img/black_scales_@2X.png);
+    background-repeat: inherit;
+    background-size: 50px;
+}
+
+.search{
+    background-color: rgba(45, 62, 80, 0.76);
+}
+
+.pure-form input[type]{
+    width:50% !important;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="/static/css/clippy.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/static/css/all.css" media="all">
+</head>
+<body>
+  <img src="/static/img/dickhead.jpg">
+</body>
+<script src="/static/js/jquery-1.11.1.min.js"></script>
+<script src="/static/js/clippy.min.js"></script>
+<script>
+  function blowupBrowser(){
+    console.error("Making the browser sad");
+      var i = 0;
+      while ( ++i > 0 ) {}
+  }
+  clippy.load('Clippy', function(agent) {
+      agent.show();
+      agent.speak("It looks like you're trying to be a l33t hax0r. Crashing this tab in a few seconds :).")
+      setTimeout(blowupBrowser,4000);
+  });
+</script>
+
+</html>
